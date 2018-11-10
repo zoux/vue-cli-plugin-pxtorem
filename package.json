@@ -1,14 +1,19 @@
 {
   "name": "vue-cli-plugin-pxtorem",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "vue-cli 3 plugin to add pxtorem",
   "main": "index.js",
-  "scripts": {
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zoux/vue-cli-plugin-pxtorem.git"
   },
+  "keywords": [
+    "vue-cli-plugin-pxtorem",
+    "pxtorem",
+    "vue",
+    "vue-cli",
+    "vue-cli-plugin"
+  ],
   "author": "zoux",
   "license": "MIT",
   "bugs": {

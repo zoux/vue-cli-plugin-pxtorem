@@ -10,7 +10,7 @@ module.exports = api => {
     updatePostcssConfig (callback) {
       let config
       let configPath
-      const rcPath = api.resolve('./.postcssrc.js')
+      const rcPath = api.resolve('./postcss.config.js')
       const pkgPath = api.resolve('./package.json')
 
       if (fs.existsSync(rcPath)) {

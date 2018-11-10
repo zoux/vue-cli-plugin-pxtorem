@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-pxtorem",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "vue-cli 3 plugin to add pxtorem",
   "main": "index.js",
   "repository": {

@@ -3,7 +3,7 @@ module.exports = api => {
 
   api.extendPackage({
     devDependencies: {
-      "postcss-plugin-px2rem": "^0.7.0"
+      "postcss-plugin-px2rem": "^0.8.1"
     }
   })
 
@@ -15,7 +15,9 @@ module.exports = api => {
   api.onCreateComplete(() => {
     utils.updatePostcssConfig(cfg => {
       cfg.plugins = cfg.plugins || {}
-      cfg.plugins['postcss-plugin-px2rem'] = {}
+      cfg.plugins['postcss-plugin-px2rem'] = {
+        exclude: /node_modules/
+      }
       return cfg
     })
   })
